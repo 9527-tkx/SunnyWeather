@@ -35,8 +35,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:layout_alignParentBottom="true"
-                android:layout_marginRight="@dimen/dp_20"
-                android:layout_marginLeft="@dimen/dp_20"
+                android:layout_marginRight="@dimen/dp_30"
+                android:layout_marginLeft="@dimen/dp_30"
                 android:background="@color/white"
                 app:tabGravity="fill"
                 app:tabIndicatorColor="@color/red_checked_color"
@@ -47,14 +47,22 @@
                 app:tabSelectedTextColor="@color/red_checked_color"
                 app:tabTextColor="@color/tab_normal_text" />
 
-            <androidx.viewpager.widget.ViewPager
-                android:id="@+id/viewPager"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+
         </RelativeLayout>
 
 
+
     </com.google.android.material.card.MaterialCardView>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="454dp"
+        android:layout_marginTop="@dimen/dp_0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cv_cv1" />
 
     <EditText
         android:theme="@style/MyEditText"

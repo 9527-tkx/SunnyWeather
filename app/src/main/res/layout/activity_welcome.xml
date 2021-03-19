@@ -14,15 +14,15 @@
             android:id="@+id/tv_sorry"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="50dp"
-            android:layout_marginBottom="560dp"
-            android:text=" Sorry for \n the inconvenience"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="98dp"
+            android:layout_marginEnd="20dp"
+            android:text="                  Sorry for \n the inconvenience"
             android:textColor="@color/white"
-            android:textSize="@dimen/dp_35"
-            android:textStyle="bold"
-            />
+            android:textSize="@dimen/dp_36"
+            android:textStyle="bold" />
 
     </com.zhpan.bannerview.BannerViewPager>
 

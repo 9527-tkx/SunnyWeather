@@ -6,9 +6,10 @@
         <entry key="../../../../../../../layout/custom_preview.xml" value="0.5026041666666666" />
         <entry key="app/src/main/res/drawable/bg_start.xml" value="0.31296296296296294" />
         <entry key="app/src/main/res/drawable/cursor_color.xml" value="0.6776041666666667" />
+        <entry key="app/src/main/res/drawable/side_nav_bar.xml" value="0.5791666666666667" />
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.6329113924050633" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.34739583333333335" />
-        <entry key="app/src/main/res/layout/activity_login2.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/activity_login2.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.40443840579710144" />
         <entry key="app/src/main/res/layout/activity_navigation.xml" value="0.49166666666666664" />
         <entry key="app/src/main/res/layout/activity_weather.xml" value="0.40443840579710144" />
@@ -18,6 +19,7 @@
         <entry key="app/src/main/res/layout/content_navigation.xml" value="0.49166666666666664" />
         <entry key="app/src/main/res/layout/forecast.xml" value="0.40443840579710144" />
         <entry key="app/src/main/res/layout/forecast_item.xml" value="0.5635416666666667" />
+        <entry key="app/src/main/res/layout/fragment_gallery.xml" value="0.5630208333333333" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.4875" />
         <entry key="app/src/main/res/layout/fragment_login.xml" value="0.8786231884057971" />
         <entry key="app/src/main/res/layout/fragment_place.xml" value="0.34739583333333335" />
