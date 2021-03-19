@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FF4B3A">
+
+    <com.zhpan.bannerview.BannerViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/tv_sorry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginBottom="560dp"
+            android:text=" Sorry for \n the inconvenience"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dp_35"
+            android:textStyle="bold"
+            />
+
+    </com.zhpan.bannerview.BannerViewPager>
+
+    <TextView
+        android:id="@+id/tv_describe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="@dimen/dp_150"
+        android:lineSpacingExtra="@dimen/dp_5"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/sp_18" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp_76"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="@dimen/dp_20"
+        android:backgroundTint="@color/white"
+        android:onClick="onClick"
+        android:theme="@style/Theme.MaterialComponents"
+        android:text="@string/start_now"
+        app:cornerRadius="@dimen/dp_30"
+        android:textColor="#FF4B3A"
+        android:textSize="@dimen/sp_28"
+
+         />
+</RelativeLayout>
